@@ -3,6 +3,12 @@ LPD8806-node
 
 Asyncronous lib that implements the LPD8806 protocol.
 
+This fork is deprecated please have a look at https://github.com/muzzley/lpd8806-async
+
+
+To install use `npm install lpd8806-async`
+
+
 ```
     var LPD8806 = require('LPD8806');
     var ledstrip = new LPD8806(32, '/dev/spidev1.0');
